@@ -19,21 +19,21 @@ class HomeScreen extends StatelessWidget {
         length: 4, // Number of tabs
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Color.fromRGBO(236, 35, 35, 0.151),
-            title: Center(
-              child: Text(
-                'News',
-                style: GoogleFonts.lato(
-                  textStyle: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 30,
-                    fontStyle: FontStyle.italic,
-                  ),
+            backgroundColor: Colors.amber.withValues(alpha: 0.5),
+            title: Text(
+              'News',
+              style: GoogleFonts.lato(
+                textStyle: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30,
+                  fontStyle: FontStyle.italic,
                 ),
               ),
             ),
+            centerTitle: true,
+            automaticallyImplyLeading: false,
             bottom: TabBar(
-              indicatorColor: Color.fromRGBO(236, 35, 35, 1),
+              indicatorColor: Colors.amber,
               indicatorSize: TabBarIndicatorSize.label,
               tabAlignment: TabAlignment.fill,
               labelPadding: EdgeInsets.symmetric(horizontal: 7.0),

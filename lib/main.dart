@@ -1,4 +1,4 @@
-import 'package:news/ui/app.dart';
+import 'package:news/app/app.dart';
 
 void main() {
   initilizaApp();
